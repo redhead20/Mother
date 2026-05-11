@@ -350,7 +350,16 @@ button {
 @media (max-width: 600px) {
     .photos {
         grid-template-columns: 1fr;
+        height: 1px;
     }
+}
+
+.photos img {
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 .photo-placeholder {
